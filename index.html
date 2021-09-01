@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Pokedex</title>
+
+
+  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flotante.css">
+</head>
+<body>
+
+
+  <div id="wrapper">
+
+
+    <div id="banner-wrapper">
+      <header>
+        <div id="header-inner">
+          
+
+          <nav>
+            <a href="#" id="menu-icon">
+              <i class="fa fa-bars"></i>
+            </a>
+            <ul>
+              <li>
+                <a href="index.html" class="current">
+                  Inicio
+                </a>
+              </li>
+              <li>
+                <a href="#Pokemones">
+                  Pokemones
+                </a>
+              </li>
+              <li>
+                <a href="#Pikachu">
+                 Pikachu
+                </a>
+              </li>
+              <li>
+                <a href="#Villanos">
+                  Villanos
+                </a>
+              </li>
+              <li>
+			  <form action="https://www.pokemon.com/el/pokedex/" method="post" target="_blank">
+  <a>
+   <input type="search" name="busqueda" placeholder="Buscar pokemon">
+    <input type="submit" value="Buscar">
+  </a>
+</form>
+</li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <a href="index.html" class="btn-flotante">+</a>
+      <div id="slide-wrap">
+       
+          <ul class="slider1">
+            <li><img src="img/slider/pokemon.png" alt=""></li>
+           
+          </ul>
+        
+      </div>
+    </div>
+
+    <!-- ICONS -->
+    <section class="one-third" id="Pokemones">
+      <div class="icon-wrap">
+        <i class="fa fa-desktop"></i>
+      </div>
+      <h3>Charmander</h3>
+      <p>Prefiere las cosas calientes. Dicen que cuando llueve le sale vapor de la punta de la cola. </p>
+    </section>
+    <section class="one-third">
+      <div class="icon-wrap">
+        <i class="fa fa-pencil-square-o"></i>
+      </div>
+      <h3>Beedrill</h3>
+      <p>Tiene tres aguijones venenosos, dos en las patas anteriores y uno en la parte baja del abdomen, con los que ataca a sus enemigos una y otra vez. </p>
+    </section>
+    <section class="one-third">
+      <div class="icon-wrap">
+        <i class="fa fa-file-code-o"></i>
+      </div>
+      <h3>Squirtle</h3>
+      <p>Cuando retrae su largo cuello en el caparazón, dispara agua a una presión increíble. </p>
+    </section>
+
+    <div class="clearfix-padding"></div>
+    <!-- LEFT COL -->
+    <section class="left-col" id="Pikachu">
+      <h3>Pikachu</h3>
+      <p>Cuanto más potente es la energía eléctrica que genera este Pokémon,
+	  más suaves y elásticas se vuelven las bolsas de sus mejillas. </p>
+    </section>
+    <section class="sidebar">
+      <img src="img/pics/pikachu.png">
+    </section>
+
+    <div class="clearfix-padding"></div>
+    <!-- INFO THUMBNAILS -->
+    <div class="one-third-padding" id="Villanos">
+      <h3> Giovanni, Líder del Team Rocket</h3>
+      <img src="img/pics/giovanni.png" alt="">
+      <p>Giovanni, además de ser el Líder del Team Rocket es también el Líder del Gimnasio de Ciudad Verde, 
+	  el que otorga del octava medalla. Este personaje es un mafioso en toda regla, 
+	  buscando enriquecerse lo máximo posible a través de la explotación de los Pokémon.</p>
+    </div>
+    <div class="one-third-padding">
+      <h3>Lysson, Líder del Team Flare</h3>
+      <img src="img/pics/lysson.png" alt="">
+      <p>Lysson apareció por primara vez con Pokémon X e Y como Líder del Team Flare, 
+	  que intenta hacer un mundo mejor a costa de perjudicar a otros sin importarle las consecuencias de sus actos.</p>
+    </div>
+    <div class="one-third-padding">
+      <h3>Acromo, del Equipo Plasma</h3>
+      <img src="img/pics/acromo.jpg" alt="">
+      <p>Acromo es un científico de la región de Teselia que ayudaba a Ghechis, 
+	  líder del Equipo Plasma. Se especializa en el control de Pokémon a través de ondas sónicas, 
+	  algo que en el anime logró tanto con el Pikachu de Ash como con el Meowth del Team Rocket.</p>
+    </div>
+  </div>
+  <div class="clearfix-padding"></div>
+  <!-- FOOTER -->
+  <footer>
+    <div class="banner-wrapper">
+      <div class="icon-text">
+        <div class="icon-text-icon">
+          <ul class="footer-nav">
+            
+          </ul>
+        </div>
+       
+      </div>
+    </div>
+  </footer>
+  
+
+  <!-- SCRIPTS -->
+  <script>
+    $(document).ready(function(){
+      $('.slider1').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider2').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider3').bxSlider({
+        mode: 'fade',
+      });
+    });
+  </script>
+</body>
+</html>
